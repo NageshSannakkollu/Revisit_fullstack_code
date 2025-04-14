@@ -1,0 +1,31 @@
+.side_nav_bar_container {
+    width: 250px;
+    min-height: 100vh;
+    background-color: #04044af6;
+    color: #c0c2c5;
+}
+.side_navbar_list_container {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding: 0px 20px;
+    
+}
+.link_list_item {
+    color: #c0c2c5;
+    text-decoration: none;
+}
+.thumbnail_component_container {
+    display: flex;      
+    align-items: center;
+    line-height: 0.2px;
+}
+.thumbnail_image {
+    margin-right: 10px;
+}
+.active{
+    background-color: aliceblue;
+    color: black;
+    padding: 0px 15px;
+
+}

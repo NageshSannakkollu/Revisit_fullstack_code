@@ -1,0 +1,40 @@
+.update_page_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.form_container {
+    border: 1px solid green;
+    width: 700px;
+    padding: 20px 30px;
+}
+.input-form{
+    width: 95%;
+    padding: 8px 15px;
+    cursor: pointer;
+    outline: none;
+}
+.add_button {
+    padding: 6px 18px;
+    background-color: #0759e6;
+    color: #fafafa;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+    outline: none;
+}
+.form_inside_container {
+    line-height: 0.5px;
+}
+.login_title {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.error_message {
+    color: crimson;
+}

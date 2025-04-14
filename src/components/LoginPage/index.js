@@ -17,7 +17,7 @@ const LoginPage = () => {
         e.preventDefault()
         //console.log("Login:",values)
         try {
-            const response = await axios.post(`http://localhost:3028/api/login`,values)
+            const response = await axios.post(`https://revisit-backend-assign.onrender.com/api/login`,values)
             if(response.data.success){  
             Cookies.set('jwtToken', response.data.jwtToken, {expires: 30})
             toast.success(response.data.message)

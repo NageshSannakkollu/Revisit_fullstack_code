@@ -15,7 +15,7 @@ const RegisterPage = () => {
           e.preventDefault()
           console.log("Register:",values)
           try {
-              const response = await axios.post(`http://localhost:3028/api/sign_up`,values)
+              const response = await axios.post(`https://revisit-backend-assign.onrender.com/api/sign_up`,values)
             if(response.data.success){  
                 toast.success(response.data.message)
                 navigate("/")
